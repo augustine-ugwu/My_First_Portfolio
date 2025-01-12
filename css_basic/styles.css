@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #00d5ff;
 }
 
 main {
@@ -12,9 +13,16 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  text-align: justify;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
+  color: black;
+}
+
+header {
+  display: flex;
+  padding-left: 1em;
 }
